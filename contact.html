@@ -1,0 +1,148 @@
+
+<!doctype html>
+<html>
+
+<head>
+        <script>
+                function abc() 
+                {
+                             window.alert("Your appointment is fixed....");
+                            
+                }
+                </script>
+<style>
+    body {font-family: "Comic Sans MS", cursive;}
+    
+  h1{
+    font-size: 60px;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive;
+}
+       .topnav{    
+    background-color: white;
+    overflow: hidden;
+    }
+ .topnav a{
+    
+     float: left;
+     font-family: "Comic Sans MS", cursive;
+     display:block;
+     color: black;
+     text-align: center;
+     padding: 15px 15px;
+     text-decoration: none ;
+     font-size:15px;
+
+ }
+.topnav a:hover{
+    background-color: whitesmoke;
+    color :black;
+}
+.topnav a.active{
+    background-color:lightcoral;
+    color: black;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color:lightcoral;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: lightcoral;
+}
+
+.container {
+    border-radius: 5px;
+    background-color:none;
+    padding: 20px;
+}
+
+
+</style>
+<title>informationabouthospital
+</title>
+</head>
+<body style=" width: 100%; background-image: url('https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&h=350.jpg'); background-size:cover; background-position:center;background-attachment:fixed;">
+
+        <h1>HOSPITAL MANAGEMENT SYSTEM </h1>
+<div class="topnav" id="myTopnav">
+  <a href="info.html">Info</a>
+  <a class=active href="contact.html">Contact</a>
+  <a href="about.html">About</a>
+  <a href="login.html">Login</a>
+  <a href="signup.html">Signup</a>
+  <a href="opd.html">OPD</a>
+  <a href="1.html">Specialist</a>
+  <a href="feedback.html">Feedback</a>
+</div>
+<div class="info">
+<h3>Contact Us</h3>
+<p><b>Address:</b>
+Hospital.<br>
+2101 - 32nd Street<br>
+Vernon, BC V1T 5L2<br>
+Phone: 250-545-2211<br>
+Toll Free: N/A<br>
+Emergency Hours<br>
+Emergency Services operates 24 hours/day; 7 days/week<br><br></p>
+ 
+<p><b>Visiting Hours</b><br>
+Between 2:00 p.m. and 8:00 p.m. daily<br>
+Other Info: Maternity  2:00 p.m. to 8:00 p.m<br>
+ICU  Family and/or significant other only (Not allowed: 6:45 to 7:15 a.m., 1:00 p.m. to 2:30 p.m., and 6:45 p.m. to 7:45 p.m.)<br>
+Psychiatric  3:00 p.m. to 8:00 p.m.<br>
+Visitors allowed at a time : 2<br><br></p>
+ 
+<p><b>Parking</b><br>
+10 per hour<br>
+Wheelchair accessible:<br>
+Yes<br>
+N/A</p>
+
+
+<h3>Appointment  Form</h3>
+
+<div class="container">
+  <form >
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="mobileno">Mobile No</label>
+    <input type="text" id="nname" name="number" placeholder="Enter your Number....">
+    
+    <label for="Doctor">Doctor Name </label>
+    <input type="text" id="nname" name="firstname" placeholder="Enter Doctor name....">
+    
+    <label for="timeslot">Enter Time Slot</label>
+    <input type="text" id="nname" name="number" placeholder="9-10(am)to 4-5(pm)">
+    
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Appointment " onclick="abc()">
+  </form>
+</div>
+
+</div>
+</body>
+</html>

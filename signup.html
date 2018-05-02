@@ -1,0 +1,158 @@
+<!doctype html>
+<html>
+<head>
+        <script>
+                function abc() 
+                {
+                             window.alert("Sign up Succesfuly");
+                            
+                }
+                </script>
+                
+<style>
+div.type {
+    background-color: yellow;
+    color: white;
+    padding: 1px;
+    
+}  
+h1{
+        font-size: 60px;
+        text-align: center;
+        font-family: "Comic Sans MS", cursive;
+    }
+       .topnav{    
+    background-color: white;
+    overflow: hidden;
+    }
+ .topnav a{
+    
+     float: left;
+     font-family: "Comic Sans MS", cursive;
+     display:block;
+     color: black;
+     text-align: center;
+     padding: 15px 15px;
+     text-decoration: none ;
+     font-size:15px;
+
+ }
+.topnav a:hover{
+    background-color: whitesmoke;
+    color :black;
+}
+.topnav a.active{
+    background-color:lightcoral;
+    color: black;
+}
+div.info{
+float: center;
+width:100%;
+background-color: whitesmoke;
+border-left-style: solid;
+text-align: center;
+}
+div.img{
+float:center;
+}
+div.lock{
+width=50%;
+}
+#main{width:600px; height:auto; overflow:hidden; padding-bottom:20px; margin-left:auto; margin-right:auto; 
+    border-radius:5px; padding-left:10px; margin-top:100px; border-top:3px double #f1f1f1; 
+    border-bottom:3px double #f1f1f1; padding-top:20px;
+    }
+    
+    #main table{font-family:"Comic Sans MS", cursive;}
+    /* css code for textbox */
+    #main .tb{height:28px; width:230px;
+     border:1px solid #f26724; 
+     color:#fd7838;
+      font-weight:bold;
+       border-left:5px solid #f7f7f7; opacity:0.9;}
+    
+    #main .tb:focus{height:28px; border:1px solid #f26724; outline:none; border-left:5px solid #f7f7f7;}
+
+    /* css code for button*/
+    #main .btn{width:150px; height:32px; outline:none;  color:#f7f7f7; font-weight:bold; border:0px solid #f26724; 
+    text-shadow: 0px 0.5px 0.5px #fff; border-radius: 2px; font-weight: 600; color: #f26724; letter-spacing: 1px; 
+    font-size:14px; background-color:#f1f1f1; -webkit-transition: 1s; -moz-transition: 1s; transition: 1s;}
+  
+    #main .btn:hover{background-color:#f26724; outline:none;  border-radius: 2px; color:#f1f1f1; border:1px solid #f1f1f1;
+    -webkit-transition: 1s; -moz-transition: 1s; transition: 1s; }
+
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+</style>
+
+<title>informationabouthospital
+</title>
+</head>
+<body style=" width: 100%; background-image: url('http://www.sambeauvois.be/blog/wp-content/uploads/2010/06/bg.gif'); background-size:cover; background-position:center;background-attachment:fixed;">
+
+        <h1>HOSPITAL MANAGEMENT SYSTEM </h1>
+<div class="topnav" id="myTopnav">
+  <a href="info.html">Info</a>
+  <a href="contact.html">Contact</a>
+  <a href="about.html">About</a>
+  <a href="login.html">Login</a>
+  <a class=active href="signup.html">Signup</a>
+  <a href="opd.html">OPD</a>
+  <a href="1.html">Specialist</a>
+  <a href="feedback.html">Feedback</a>
+</div>
+<div class="">
+<h3><form>
+ 
+	<!-- Main div code -->
+	<div id="main">
+            <div class="h-tag">
+            <h2>Create Your Account</h2>
+            </div>
+            <!-- create account div -->
+            <div class="login">
+            <table cellspacing="2" align="center" cellpadding="8" border="0">
+            <tr>
+            <td align="right">Enter Name :</td>
+            <td><input type="text" placeholder="Enter user here" class="tb" name="name"/></td>
+            </tr>
+            <tr>
+            <td align="right">Enter Email ID :</td>
+            <td><input type="text" placeholder="Enter Email ID here" class="tb" name="email" /></td>
+            </tr>
+            <tr>
+            <td align="right">Enter Username :</td>
+            <td><input type="text" placeholder="Enter Username here" class="tb" name="uname"/></td>
+            </tr>
+            <tr>
+            <td align="right">Enter Password :</td>
+            <td><input type="password" placeholder="Enter Password here" class="tb" name="pwd"/></td>
+            </tr>
+            <tr>
+            <td align="right">Enter Confirm Password :</td>
+            <td><input type="password" placeholder="Enter Password here" class="tb" name="cpwd"/></td>
+            </tr>
+            <tr>
+            <td></td>
+            <td>
+            <input type="reset" value="Clear Form" id="res" class="btn" />
+            <input type="submit" id="res"  class="btn" value="Create Account" onclick="abc()"  /></td>
+            </tr>
+            </table>
+            </div>
+ 
+            <!-- Main div ending here... --><br><br><br>
+<footer>Copyright&copy </footer>
+</body>
+</html>
